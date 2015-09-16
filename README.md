@@ -1,2 +1,2 @@
 # geolive-customtiles
-custom tile scripts for geolice
+custom tile scripts for geolive
