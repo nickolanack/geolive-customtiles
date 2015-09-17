@@ -9,6 +9,8 @@ $tint = '?tint=rgb(0,0,0)';
 
 var layers=map.layerManager.layers;
 
+
+
 tile.addEvent("click:once",function(){
 var shouldShare=true;
 var sharedHeatmap=null;
@@ -70,6 +72,9 @@ Array.each(layers, function(layer){
 	onclick();
 
     });
+
+
+
 });
 
 
