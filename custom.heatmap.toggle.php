@@ -7,7 +7,7 @@ $tint = '?tint=rgb(0,0,0)';
 
 ?>
 
-var layers=map.layerManager.layers;
+var layers=map.getLayerManager().layers;
 
 
 
