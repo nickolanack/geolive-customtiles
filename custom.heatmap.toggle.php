@@ -34,7 +34,6 @@ Array.each(layers, function(layer){
 
     if(!(defaultRenderer instanceof HeatmapRenderer)){
 
-
         	   var isVisibleOnClick=layer.isVisible();
         	   tile.disable();
         	   if(isVisibleOnClick){
@@ -47,24 +46,17 @@ Array.each(layers, function(layer){
 					}
 					currentRenderer=heatmapRenderer;
 
-
 				}else{
 
 					currentRenderer=defaultRenderer;
 
 				}
 
-
-
-
-
 				layer.setRenderer(currentRenderer);
 				if(isVisibleOnClick){
 					layer.show();
 				}
 			    setTimeout(tile.enable.bind(tile),1000);
-
-
 
 			};
 	};
